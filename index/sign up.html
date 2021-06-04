@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>sign up</title>
+<link href="../css/sign up style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../js/signup.js"></script>
+<h1>Newsletter Signup</h1>
+
+<form action="information.php" method="post">
+  <div class="uname">Username:</div>
+  <input type="text" class="input1" id="username" name="username" placeholder="Enter Username" onblur="checkun()" >
+  <p id="untext" class="unp1"></p>
+  <div id="unpt" class="unpt1"></div>
+
+  <input type="submit" value="Submit" class="submit">
+  
+  <div class="email">Email:</div>
+  <input type="text" class="input4" id="email" name="email" placeholder="Enter Email" onblur="checkem()">
+  <p id="emtext" class="emp1"></p>
+  <div id="empt" class="empt1"></div>
+  
+  <div class="pi" id="ptppt">Product interests:</div>
+  <select class="input5"  name="proint">
+   <option>Donuts</option> <option>Vanilla Slice</option> <option>Randy Tart</option> <option>Custard Tart</option>
+   <option>Raspberry cheesecake</option> <option>Apple Cake Slice</option>
+  </select>
+  
+  
+  
+  <div class="month">Month:</div>
+  <div class="xg">/</div>
+  <div class="day">Day:</div>
+  
+  <div class="birthday" id="birthd">Birthday:</div>
+   <select class="input6" name="month">
+	<option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option>
+	<option>6</option> <option>7</option> <option>8</option> <option>9</option> <option>10</option>
+	<option>11</option> <option>12</option>
+   </select>
+   <select class="input7" name="day">
+   <option>01</option> <option>02</option> <option>03</option> <option>04</option> <option>05</option>
+	<option>06</option> <option>07</option> <option>08</option> <option>09</option> <option>10</option>
+	<option>11</option> <option>12</option> <option>13</option> <option>14</option> <option>15</option>
+	<option>16</option> <option>17</option> <option>18</option> <option>19</option> <option>20</option>
+	<option>21</option> <option>22</option> <option>23</option> <option>24</option> <option>25</option>
+	<option>26</option> <option>27</option> <option>28</option> <option>29</option> <option>30</option>
+	<option>31</option>
+   </select>
+
+</form>
+
+<div class="fk"></div>
+<img class="logo" src="../bakery/logo.png">
+
+<div id="container1">
+	<a href="../index.html">
+	<img class="navigation1" src="../bakery/Bakery.png" alt="Home page" >
+	<div id="text1">Home page</div>
+	</a>
+</div>
+<div id="container2">
+	<a href="Weekly Specials.html">
+	<img class="navigation2" src="../bakery/Bakery.png" alt="Weekly Specials">
+	<div id="text2">Weekly Specials</div>
+	</a>
+</div>
+<div id="container3">
+	<a href="Menu.html">
+	<img class="navigation3" src="../bakery/Bakery.png" alt="Menu">
+	<div id="text3">Menu</div>
+	</a>
+</div>
+<div id="container4">
+	<a href="Specials page.html">
+	<img class="navigation4" src="../bakery/Bakery.png" alt="Specials page">
+	<div id="text4">Specials page</div>
+	</a>
+</div>
+<div id="container5">
+	<a href="About me.html">
+	<img class="navigation5" src="../bakery/Bakery.png" alt="About me">
+	<div id="text5">About me</div>
+	</a>
+</div>
+
+
+
+<div class="footer">
+	Contacts: 0455 5555 555</br>
+	Catering: 0433 3333 333</br>
+	Address: 123 Prize Lane, Kirwan, QLD
+</div>
+
+</body>
+</html>
